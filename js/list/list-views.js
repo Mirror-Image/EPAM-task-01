@@ -20,6 +20,7 @@ export default class ListView {
   }
 
   displayItems(list) {
+    this.ul.innerHTML = '';
     Array.from(list).forEach(item => {
       this.li = document.createElement('li');
       this.li.classList.add('list__item', 'item');
@@ -34,6 +35,12 @@ export default class ListView {
       this.li.append(this.img);
     });
     console.log( 'List component rendered' );
+  }
+
+  displayItem(item) {
+    console.log( item );
+    let anchorElement = document.getElementById(`${item}`);
+    console.log( anchorElement );
   }
 
 

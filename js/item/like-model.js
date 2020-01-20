@@ -10,7 +10,7 @@ export default class LikeModel {
     let currentLikesAmount = this.list[id].likesAmount;
 
     this.list[id].likesAmount = currentLikesAmount + 1;
-
     storage.list = this.list;
+    console.log( storage.list );
   }
 }

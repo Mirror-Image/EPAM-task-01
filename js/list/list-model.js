@@ -16,7 +16,7 @@ export default class ListModel {
   }
 
   onSort(list) {
-    let res = list.sort( (a, b) => a.likesAmount > b.likesAmount ? 1 : -1 );
+    let res = Array.from(list).sort( (a, b) => a.likesAmount < b.likesAmount ? 1 : -1 );
 
     this._commit(res); // Check it out!
   }

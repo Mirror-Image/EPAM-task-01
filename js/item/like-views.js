@@ -1,4 +1,5 @@
-
+import {observer} from "../observer.js";
+import {storage} from "../store.js";
 
 
 export default class LikeView {
@@ -32,18 +33,13 @@ export default class LikeView {
   }
 
   bindLikeIncrement(handler) {
+
     this.anchor.addEventListener('click', function (event) {
-      if (event.target.closest('.item__like-item')) {
+      if (event.target.closest('.item__like-icon')) {
         const id = parseInt(event.target.parentElement.id);
-
         handler(id);
+        observer.notify(storage.list, id);
       }
-    })
-
-    // this.i.addEventListener('click', event => {
-    //   const id = parseInt(event.target.parentElement.id);
-    //
-    //   handler(id);
-    // });
+    });
   }
 }

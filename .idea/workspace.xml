@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6e6832f-7f82-4d24-8f39-efbc5c5f286b" name="Default Changelist" comment="" />
+    <list default="true" id="c6e6832f-7f82-4d24-8f39-efbc5c5f286b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/item/like-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/item/like-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/item/like-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/item/like-model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/item/like-views.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/item/like-views.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/list/list-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/list/list-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/list/list-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/list/list-model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/list/list-views.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/list/list-views.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/observer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/store.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WX0gZ8k7XEgpCkzrzae39Fz7yk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,8 +32,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/0. Patterns/1. Observer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
@@ -44,11 +62,36 @@
       <option name="presentableId" value="Default" />
       <updated>1579280743763</updated>
       <workItem from="1579280745320" duration="619000" />
-      <workItem from="1579350937967" duration="16781000" />
+      <workItem from="1579350937967" duration="19031000" />
+      <workItem from="1579550163103" duration="47000" />
+      <workItem from="1579550396265" duration="5007000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#JavaScript" timestamp="1579553896331">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#JavaScript/0.0.1536.824@0.0.1536.824" timestamp="1579553896331" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1579536060890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1579536060890" />
   </component>
 </project>
